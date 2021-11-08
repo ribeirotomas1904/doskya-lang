@@ -1,0 +1,2 @@
+let the_one = "doskya" in
+"hail " ^ the_one

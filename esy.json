@@ -1,0 +1,18 @@
+{
+    "name": "doskya-lang",
+    "esy": {
+        "build": [
+            "dune build -p #{self.name}"
+        ]
+    },
+    "dependencies": {
+        "ocaml": "4.12.x",
+        "@opam/dune": "*"
+    },
+    "devDependencies": {
+        "@opam/menhir": "*",
+        "@opam/ocaml-lsp-server": "*",
+        "@opam/ocamlformat": "*",
+        "@opam/utop": "*"
+    }
+}

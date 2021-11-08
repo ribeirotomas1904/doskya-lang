@@ -1,0 +1,15 @@
+(executable
+ (name main)
+ (modes byte)
+ (public_name doskya))
+
+(ocamllex lexer)
+
+(menhir
+ (modules parser))
+
+(rule
+ (alias runtest.bc)
+ (deps ./main.bc)
+ (action
+  (run ./main.bc)))

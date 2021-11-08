@@ -1,0 +1,4 @@
+- function application
+- currying
+- boolean operators
+- math operators
